@@ -7,7 +7,7 @@
         android:label="survey_app"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <!-- Add this meta-data for v2 embedding -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
